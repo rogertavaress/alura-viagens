@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  alura-viagens
+//  AluraViagens
 //
-//  Created by Rogério Tavares on 18/12/21.
+//  Created by Ândriu Felipe Coelho on 13/03/21.
 //
 
 import UIKit
@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         viagensTableView.dataSource = self
         viagensTableView.delegate = self
+        
         view.backgroundColor = UIColor(red: 30.0/255.0, green: 59.0/255.0, blue: 119.0/255.0, alpha: 1)
     }
 }
@@ -27,15 +28,17 @@ extension ViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell(style: .default, reuseIdentifier: nil)
         
-        cell.textLabel?.text = "Viagem \(indexPath.row)"
+        cell.textLabel?.text = "viagem \(indexPath.row)"
         
         return cell
     }
 }
 
 extension ViewController: UITableViewDelegate {
+    
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let headerView = Bundle.main.loadNibNamed("HomeTableViewHeader", owner: self, options: nil)?.first as? HomeTableViewHeader
+        headerView?.configuraView()
         
         return headerView
     }
