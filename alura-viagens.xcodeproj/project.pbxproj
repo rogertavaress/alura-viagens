@@ -13,6 +13,8 @@
 		9ED1F1CA276E5F00000FDEDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ED1F1C8276E5F00000FDEDF /* Main.storyboard */; };
 		9ED1F1CC276E5F02000FDEDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ED1F1CB276E5F02000FDEDF /* Assets.xcassets */; };
 		9ED1F1CF276E5F02000FDEDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ED1F1CD276E5F02000FDEDF /* LaunchScreen.storyboard */; };
+		9ED1F1D7276E60D2000FDEDF /* HomeTableViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ED1F1D6276E60D2000FDEDF /* HomeTableViewHeader.xib */; };
+		9ED1F1D9276E6344000FDEDF /* HomeTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED1F1D8276E6344000FDEDF /* HomeTableViewHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9ED1F1CB276E5F02000FDEDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9ED1F1CE276E5F02000FDEDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9ED1F1D0276E5F02000FDEDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ED1F1D6276E60D2000FDEDF /* HomeTableViewHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewHeader.xib; sourceTree = "<group>"; };
+		9ED1F1D8276E6344000FDEDF /* HomeTableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				9ED1F1CB276E5F02000FDEDF /* Assets.xcassets */,
 				9ED1F1CD276E5F02000FDEDF /* LaunchScreen.storyboard */,
 				9ED1F1D0276E5F02000FDEDF /* Info.plist */,
+				9ED1F1D6276E60D2000FDEDF /* HomeTableViewHeader.xib */,
+				9ED1F1D8276E6344000FDEDF /* HomeTableViewHeader.swift */,
 			);
 			path = "alura-viagens";
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9ED1F1CF276E5F02000FDEDF /* LaunchScreen.storyboard in Resources */,
+				9ED1F1D7276E60D2000FDEDF /* HomeTableViewHeader.xib in Resources */,
 				9ED1F1CC276E5F02000FDEDF /* Assets.xcassets in Resources */,
 				9ED1F1CA276E5F00000FDEDF /* Main.storyboard in Resources */,
 			);
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9ED1F1C7276E5F00000FDEDF /* ViewController.swift in Sources */,
+				9ED1F1D9276E6344000FDEDF /* HomeTableViewHeader.swift in Sources */,
 				9ED1F1C3276E5F00000FDEDF /* AppDelegate.swift in Sources */,
 				9ED1F1C5276E5F00000FDEDF /* SceneDelegate.swift in Sources */,
 			);
@@ -298,6 +306,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -327,6 +336,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
