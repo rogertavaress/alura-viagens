@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  AluraViagens
 //
-//  Created by Ândriu Felipe Coelho on 13/03/21.
+//  Created by Rogério Tavares on 13/03/21.
 //
 
 import UIKit
@@ -22,7 +22,7 @@ class ViewController: UIViewController {
 
 extension ViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return 100
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
