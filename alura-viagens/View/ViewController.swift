@@ -51,7 +51,7 @@ extension ViewController: UITableViewDataSource {
             guard let celulaOferta = tableView.dequeueReusableCell(withIdentifier: "OfertaTableViewCell") as? OfertaTableViewCell else {
                 fatalError("error to create OfertaTableViewCell")
             }
-            
+            celulaOferta.configuraCelula(viewModel?.viagens)
             return celulaOferta
         default:
             return UITableViewCell()
